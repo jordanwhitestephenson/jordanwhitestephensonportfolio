@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/jordanwhitestephenson/jordanwhitestephenson#readme",
   "dependencies": {
-    "dotenv": "^4.0.0"
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
   }
 }
