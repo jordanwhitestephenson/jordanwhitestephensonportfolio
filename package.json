@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jordanwhitestephenson/jordanwhitestephenson.git"
+    "url": "git+https://github.com/jordanwhitestephenson/jordanwhitestephensonportfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jordanwhitestephenson/jordanwhitestephenson/issues"
   },
-  "homepage": "https://github.com/jordanwhitestephenson/jordanwhitestephenson#readme"
+  "homepage": "https://github.com/jordanwhitestephenson/jordanwhitestephenson#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  }
 }
