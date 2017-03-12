@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static('public'));
 
 app.listen(PORT, ()=> {
-  console.log(`Listening on port ${PORT}`)
+  console.log(`Listening on port YA! ${PORT}`)
 })
 
 module.exports = app
