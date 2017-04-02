@@ -1,0 +1,347 @@
+
+p {
+  font-family: "Andale Mono", AndaleMono, monospace;
+  color: #000;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bad Script', cursive;
+  color: #000;
+}
+nav {
+  color: #fff;
+  background-color: rgba(98, 26, 76, 0.64);
+
+}
+
+.about {
+  width: 600px;
+  line-height: 1.5;
+  color: #000;
+}
+
+.projectcontainer {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+align-content: center;
+width: 1000px;
+line-height: 25px;
+}
+
+#modal1, #modal2, #modal3, #modal4, #modal5 {
+  max-height: 90%;
+  max-width: 100%;
+  top: 1%
+}
+
+
+#modal1 > .modal.open {
+  top: 1%;
+}
+
+.modal {
+  top: 1%
+}
+
+
+@media only screen and (max-width: 992px)
+.modal {
+  width: 80%;
+  height: 80%;
+  top: 1%;
+}
+.projectimg {
+  margin: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.modal-content {
+  font-family: "Andale Mono", AndaleMono, monospace;
+}
+.projectTitle {
+
+
+}
+
+.projectSubtitle {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 13px;
+  font-family:'Bad Script', cursive;
+
+}
+
+#dammit {
+ background-color: rgba(102, 233, 179, 0.92);
+ padding-top: 50px;
+}
+
+.about.col.s12.m2.z-depth-5 {
+  background-color: rgba(0, 255, 149, 0.43);
+
+}
+
+.col.s11.m3 {
+  height: 50px
+
+}
+
+body {
+    background: url("GundyandJordan.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    font-family: 'Bad Script', cursive;
+    color: #000;
+}
+
+heading {
+    border-width: 10px;
+}
+#goHere {
+  // position: absolute;
+}
+
+.modal-overlay {
+  background: rgba(158, 158, 158, 0);
+}
+
+
+.heading {
+  color: #000;
+  font-family: stationery Roboto-thin;
+
+}
+.profile-img {
+  background: url("Jordan StephensonIcon2.jpg") 0 0 no-repeat;
+  margin: 0 auto;
+  width: 256px;
+  height: 256px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  filter: grayscale(100%)
+
+
+}
+
+.profile-img.edge {
+  border: 3px solid #FFF;
+  -moz-box-shadow:
+    1px 1px 5px rgba(0, 0, 0, 0.2),
+    inset 1px 1px 15px rgba(100, 100, 100, 0.15);
+  -webkit-box-shadow:
+    1px 1px 5px rgba(0, 0, 0, 0.2),
+    inset 1px 1px 15px rgba(100, 100, 100, 0.15);
+  box-shadow:
+    1px 1px 5px rgba(0, 0, 0, 0.2),
+    inset 1px 1px 15px rgba(100, 100, 100, 0.15);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center
+}
+
+
+.angle-top {
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 10vw 0 0 100vw;
+border-color: transparent transparent transparent rgba(102, 233, 179, 0.92);
+}
+
+.angle-top2 {
+  // position:absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 21vw 100vw;
+  border-color: rgba(102, 233, 179, 0.92) transparent rgba(102, 233, 179, 0.92) transparent ;
+  padding-top: 100px;
+}
+
+
+.one{
+  background:rgba(102, 233, 179, 0.92);
+}
+
+.two{
+  background: rgba(102, 233, 179, 0.92);
+
+}
+
+.angle-bottom {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 10vw 0vw 0vw 100vw;
+border-color: rgba(102, 233, 179, 0.92) transparent  transparent transparent;
+}
+
+.angle-bottom2 {
+  // position:absolute;
+  bottom:0px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0vw 0vw 24vw 100vw;
+  border-color: transparent rgba(102, 233, 179, 0.92) transparent rgba(102, 233, 179, 0.92);
+}
+
+section {
+  padding:10px 10px;
+  padding-top: 4px;
+  color:#66e9b3;
+}
+.section {
+  padding-bottom: 0rem;
+}
+
+
+
+
+
+
+
+//Menu Grow/Shrink//
+
+.bmenu {
+    padding: 0;
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.bmenu li {
+    font-size: 50px;
+    display: block;
+}
+
+.bmenu li a {
+    white-space: nowrap;
+    color: transparent;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 0 6px #fff;
+    letter-spacing: 1px;
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all 0.6s linear;
+    -moz-transition: all 0.6s linear;
+    -o-transition: all 0.6s linear;
+    -ms-transition: all 0.6s linear;
+    transition: all 0.6s linear;
+}
+
+.bmenu:hover li a {
+    text-shadow: 0 0 5px #fff;
+}
+
+.bmenu li a:hover {
+    text-shadow: 0 0 0px #000;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+.one{
+  background:rgba(102, 233, 179, 0.92);
+}
+
+.two{
+  background: rgba(102, 233, 179, 0.92);
+
+}
+
+.angle-bottom {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 10vw 0vw 0vw 100vw;
+border-color: rgba(102, 233, 179, 0.92) transparent  transparent transparent;
+}
+
+.angle-bottom2 {
+  // position:absolute;
+  bottom:0px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0vw 0vw 24vw 100vw;
+  border-color: transparent rgba(102, 233, 179, 0.92) transparent rgba(102, 233, 179, 0.92);
+}
+
+section {
+  padding:10px 10px;
+  padding-top: 4px;
+  color:#66e9b3;
+}
+.section {
+  padding-bottom: 0rem;
+}
+
+
+
+
+
+
+
+//Menu Grow/Shrink//
+
+.bmenu {
+    padding: 0;
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.bmenu li {
+    font-size: 50px;
+    display: block;
+}
+
+.bmenu li a {
+    white-space: nowrap;
+    color: transparent;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 0 6px #fff;
+    letter-spacing: 1px;
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all 0.6s linear;
+    -moz-transition: all 0.6s linear;
+    -o-transition: all 0.6s linear;
+    -ms-transition: all 0.6s linear;
+    transition: all 0.6s linear;
+}
+
+.bmenu:hover li a {
+    text-shadow: 0 0 5px #fff;
+}
+
+.bmenu li a:hover {
+    text-shadow: 0 0 0px #000;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}

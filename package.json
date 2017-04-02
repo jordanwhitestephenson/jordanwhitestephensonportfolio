@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -16,11 +16,14 @@
   "bugs": {
     "url": "https://github.com/jordanwhitestephenson/jordanwhitestephenson/issues"
   },
-  "homepage": "https://github.com/jordanwhitestephenson/jordanwhitestephenson#readme",
+  "homepage": "www.jordanwhitestephenson.com",
   "dependencies": {
     "body-parser": "^1.17.1",
+    "bourbon": "^4.3.3",
     "dotenv": "^4.0.0",
     "express": "^4.15.2",
-    "nodemon": "^1.11.0"
+    "materialize": "^1.0.0",
+    "nodemon": "^1.11.0",
+    "sass": "^0.5.0"
   }
 }

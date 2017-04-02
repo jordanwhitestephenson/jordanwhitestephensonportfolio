@@ -260,7 +260,7 @@ header{
 }
 /* Grid wrapper sizes */
 .ri-grid-size-1 {
-	width: 55%;
+	width: 100%;
 }
 .ri-grid-size-2 {
 	width: 100%;
@@ -276,9 +276,9 @@ header{
 	z-index: -2;
 	bottom: 15px;
 	left: 10px;
-	width: 50%;
+	width: 100%;
 	height: 20%;
-	max-width: 300px;
+	/*max-width: 300px;*/
 	max-height: 100px;
 	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
 	-webkit-transform: rotate(-3deg);
